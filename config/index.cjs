@@ -6,7 +6,6 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx245d036cb517f6ae',
 
@@ -23,7 +22,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oqdX65_RM-aEy2h15UQgH7vbIGN8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4h6Nmt6c5a74fUvKdxyep3OQ_-aEFwpg139b3XOzlYI',
+      useTemplateId: 'XQWSPlRNaJka5SNAc4_NIZ7ZVSIAHbSW2MAuLQKP7bA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
       festivals: [
@@ -48,6 +47,19 @@ const USER_CONFIG = {
       ],
     },
   ],
+
+
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  // CALLBACK_TEMPLATE_ID: 'AA82GD7xyCzdRiG3r9PcmWGYJa4FAlz1j0R6JKQdsYw',
+
+  // CALLBACK_USERS: [
+  //   {
+  //     name: '宝贝',
+  //     // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+  //     // id: 'oqdX65_RM-aEy2h15UQgH7vbIGN8',
+  //     id: 'oqdX65yUPJopppu_YvHHlVGATTqY'
+  //   }
+  // ],
 
 }
 
